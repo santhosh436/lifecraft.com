@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+}
+.container .header{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container .header img{
+    position:absolute;
+    left: 16px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+
+}
+
+.container .header a{
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 3px skyblue;
+    position: absolute;
+    right: 14px;
+}
+.container .header a:hover{
+    color: orange;
+    cursor: pointer;
+}
+.container .navbar{
+    width: 100%;
+    height: 60px;
+    /* margin-top: 15px; */
+    background-color: orange;
+
+}
+.nav-items ul{
+    display: flex;
+    height: 60px;
+    margin-left: 40px;
+    justify-content: left;
+    align-items: center;
+    width: 70%;
+    /* padding: 10px 0; */
+    /* background-color: orange   ; */
+
+}
+.nav-items ul li{
+    margin-right: 20px;
+    list-style: none;
+    font-size: 20px;
+    width: 100px;
+    /* background-color: black; */
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s ease;
+    /* height: 30px; */
+}
+.nav-items ul li:hover{
+    background-color: black;
+    cursor: pointer;
+
+}
+.nav-items ul li a{
+    text-decoration: none;
+
+}
+.nav-items ul li a:hover{
+    color: orange;
+}
+.title-header{
+    margin: 30px 50px;
+    font-size: 23px;
+    text-align: center ;
+}
+.main-items{
+    width: 100%;
+    height: 450px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.main-items img{
+    box-shadow: 2px 2px 9px orange;
+    border-radius: 30px;
+    width: 500px;
+    height: 380px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.main-items .description{
+    width: 50%;
+    font-size: 23px;
+    height: 370px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.main-items .description button{
+
+    width: 110px;
+    padding: 6px 0;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    font-size: 16px;
+    box-shadow: -1px -2px 3px white;
+
+}
+.main-items .description button a{
+    text-decoration: none;
+}
+.bottomtab{
+    height: 100vh;
+    width: 100%;
+
+}
+.keypoint{
+    width: 100%;
+}
+.keypoint h3{
+    margin: 20px 0;
+    text-decoration: underline;
+    font-size: 23px;
+    color: orange;
+}
+.keypoint ol li{
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.keypoint ol li b{
+    color: orange;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 230px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+.footer p{
+    width: 830px;
+    margin: 0 auto;
+    height: 150px;
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: 500;
+    /* background-color: red; */
+}
+.footer img{
+
+    width: 200px;
+    height: 90px;
+}
+.article-items{
+    width: 100%;
+    height: 80vh;
+}
+.article-items .item{
+    width: 100%;
+    height: 34vh;
+    display: flex ;
+    margin-bottom: 10px;
+    border-bottom: 1px solid orange;
+    padding-bottom: 20px;
+    /* background-color: red; */
+}
+.article-items .item .image{
+    width: 60%;
+    height: 100%;
+    margin-left: 40px;
+}
+.article-items .item .description{
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    height: 20vh;
+    margin: auto 0;
+    /* background-color: white; */
+    
+}
+.article-items .item .description p{
+    width: 70%;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.article-items .item .image-left{
+    width: 60%;
+    height: 100%;
+    margin-right: 40px;
+
+}
+.article-items .item .description-left{
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    height: 20vh;
+    margin: auto 0;
+    /* background-color: white; */
+    
+}
+.article-items .item .description-left p{
+    margin-left: 240px;
+    width: 70%;
+    font-size: 20px;
+}
+.article-items img{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 13px orange;
+}
+.hobbie-items{
+    width: 100%;
+    height: 90vh;
+}
+.hobbie-items h3{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.hobbie-items h2{
+    color: orange;
+    text-decoration:underline wavy white;
+    margin-bottom: 20px;
+}
+.hobbie-items ol{
+    margin-left: 30px;
+}
+.hobbie-items ol li{
+    margin-bottom: 18px;
+}
+.hobbie-items ol li p{
+    font-size: 20px;
+    color: orange;
+}
+.hobbie-items ol li ul{
+    margin-top: 16px;
+    margin-left: 30px;
+}
+.skills-items{
+    width: 100%;
+    height: 90vh;
+}
+.skills-items h3{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.skills-items h2{
+    color: orange;
+    text-decoration:underline wavy white;
+    margin-bottom: 20px;
+}
+.skills-items ol{
+    margin-left: 30px;
+}
+.skills-items ol li{
+    margin-bottom: 18px;
+}
+.skills-items ol li p{
+    font-size: 20px;
+    color: orange;
+}
+.skills-items ol li ul{
+    margin-top: 16px;
+    margin-left: 30px;
+}
+.quote-items{
+    width: 100%;
+}
+.quote-items p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.quote-items span{
+    color: orange;
+}
+.books-items{
+    width: 100%;
+    padding: 0 20px;
+}
+.books-items .items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white ; */
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.books-items .items .item{
+    width: 280px;
+    height:300px;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    background-color: grey; 
+    border-radius: 20px;    
+
+}
+.books-items .items .item .bookimage{
+    width: 100%;
+    height: 80%;
+    margin-top: 6px;
+} 
+.books-items p{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.books-items p:hover{
+    color: blue;
+}
+.books-items .item .bookimage a img{
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.books-items .item h4{
+    text-align: center;
+    color: rgb(245, 117, 5);
+}
